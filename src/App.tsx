@@ -1,11 +1,8 @@
+import { RouterProvider } from "react-router-dom";
+import router from "./routes";
+
 function App() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-600">
-      <h1 className="text-5xl font-bold text-white">
-        Welcome to WholesaleHub 🚀
-      </h1>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
