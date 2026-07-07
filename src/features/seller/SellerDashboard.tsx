@@ -1,13 +1,3 @@
 export default function SellerDashboard() {
-  return (
-    <div>
-      <h1 className="text-4xl font-bold text-blue-600">
-        Welcome to EverBright Mart
-      </h1>
-
-      <p className="mt-4 text-lg">
-        Your trusted wholesale marketplace in Nigeria.
-      </p>
-    </div>
-  );
+  return <h1>Seller Dashboard</h1>;
 }
