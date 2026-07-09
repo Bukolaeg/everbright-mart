@@ -1,13 +1,5 @@
-export default function HomePage() {
-  return (
-    <div>
-      <h1 className="text-4xl font-bold text-blue-600">
-        Welcome to EverBright Mart
-      </h1>
+import Hero from "../../components/home/Hero";
 
-      <p className="mt-4 text-lg">
-        Your trusted wholesale marketplace in Nigeria.
-      </p>
-    </div>
-  );
+export default function HomePage() {
+  return <Hero />;
 }
